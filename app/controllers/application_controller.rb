@@ -8,4 +8,8 @@ class App < Sinatra::Base
       erb :form
     end
 
+    get '/teams' do
+      erb :team
+    end
+
 end
